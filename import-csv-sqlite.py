@@ -41,3 +41,4 @@ for ind in range(0, len(table_names)):
         print(insert_register)
         cur.execute(query, insert_register)
         con.commit()
+print("Hello world")
